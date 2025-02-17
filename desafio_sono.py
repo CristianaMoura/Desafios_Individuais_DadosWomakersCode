@@ -11,7 +11,7 @@ pip install pandas
 
 import pandas as pd
 
-url = "https://raw.githubusercontent.com/CristianaMoura/Desafio-Sono-DadosWomakersCode/refs/heads/main/saude_do_sono_estilo_vida.csv.csv"
+url = "https://raw.githubusercontent.com/CristianaMoura/Desafio-Sono-DadosWomakersCode/refs/heads/main/saude_do_sono_estilo_vida.csv"
 df = pd.read_csv(url)
 df.head(10)  # Exibe as primeiras linhas
 
